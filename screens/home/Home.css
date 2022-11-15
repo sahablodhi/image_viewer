@@ -1,0 +1,45 @@
+/* Master container for Posts. */
+.posts-container {
+    margin: 1% 10% 1% 10%;
+}
+
+/* Profile picture header for Post card. */
+.avatar{
+    border: 2px solid whitesmoke;
+}
+
+/* Caption for Post card. */
+.caption {
+    overflow: hidden;
+    text-overflow: clip;
+    margin-top: 5px;
+}
+
+/* Hashtags for Post card. */
+.tags {
+    color: blue;
+}
+
+/* Like icon for Post Card. */
+.likes {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Container displaying existing and newly posted comments. */
+.post-comment-container {
+    display: flex;
+}
+
+/* Form for adding new comments. */
+.post-comment-form-control {
+    width: 550px;
+}
+
+/* Form for submitting new comments. */
+.add-button {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}

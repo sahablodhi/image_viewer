@@ -1,0 +1,36 @@
+/* Login Form master container. */
+.loginFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* Container displaying login card. */
+.card {
+    padding: 3%;
+    width: 25%;
+}
+
+.card-content {
+    min-width: auto;
+}
+
+/* Styling for helper text for hiding it. */
+.hide {
+    display: none;
+}
+
+/* Showing helper text. */
+.show {
+    display: block;
+}
+
+/* Styling for helper text for showing it. */
+.red {
+    color:red;
+}
+
+/* For Username and Password form controls. */
+.form-control {
+    width: 100%;
+}

@@ -1,0 +1,114 @@
+/* Profile picture shown on the profile page. */
+#dp {
+    width: 120px;
+    height: 120px;
+    border: 1px solid whitesmoke;
+}
+
+/* The section displaying all info Username, Follows, Name etc. */
+#info-container{
+    margin: 10px;
+}
+
+/* Edit name icon. */
+#edit-name {
+    width: 35px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Edit name modal. */
+.edit-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .4rem;
+}
+
+/* For Name Change helper text. ('required') */
+.hide {
+    display: none;
+}
+
+/* For Name Change helper text. ('required') */
+.show {
+    display: block;
+}
+
+/* Image placed on the grid should be clickable. */
+.image-on-grid{
+    cursor: pointer;
+}
+
+/* Modal for selected image. */
+.selected-image-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    box-shadow: black;
+    inline-size: fit-content;
+}
+
+/* Right section on the modal. */
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/* Profile picture on the modal. */
+#modal-profile-pic{
+    height: 60px;
+    width: 60px;
+    border: 1px solid whitesmoke;
+}
+
+/* Section on modal containing likes and Add comment section. */
+.lower-section{
+    vertical-align: bottom;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+/* Like button on modal. */
+.like-button{
+    display: inline-block;
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+}
+
+/* User dp and username section. */
+.user-detail-section {
+    vertical-align: top;
+
+}
+
+/* Divider after user detail section. */
+.divider{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* Add comment form section. */
+.comment-add-section {
+    vertical-align: bottom;
+    margin-bottom: 0%;
+}
+
+/* Add comment button. */
+.add-button {
+    vertical-align: bottom;
+    inline-size: fit-content;
+}
